@@ -31,7 +31,7 @@ For the html files, follow the [Replacing a Default Template File](https://docs.
 To install `ckanext-salted-template`:
 1. Add the extension to the Dockerfile and add these lines at the end (folder path: `ckan-docker/ckan/`):
     ```bash
-    RUN pip3 install -e git+https://github.com/tlmat-unican/ckanext-salted-template.git@main#egg=ckanext-salted-template && \
+    RUN pip3 install -e git+https://github.com/SALTED-Project/ckanext-salted-template.git@main#egg=ckanext-salted-template && \
     pip3 install -r ${APP_DIR}/src/ckanext-salted-template/requirements.txt
     ```
 
@@ -62,7 +62,7 @@ To install `ckanext-salted-template`:
 To install `ckanext-salted-template`:
 1. Clone the GitHub repository(folder path: `ckan-docker/src/`):
     ```bash
-    git clone https://github.com/tlmat-unican/ckanext-salted-template.git
+    git clone https://github.com/SALTED-Project/ckanext-salted-template.git
     ```
     **Note**: if `src/` folder does not exist, create it.
 
